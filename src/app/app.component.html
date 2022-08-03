@@ -1,0 +1,38 @@
+
+<ng-container>
+  <div class="toolbar" role="banner">
+    <a [routerLink]="['/home']">
+      <div class="logo">  </div>
+    </a>
+
+    <div class="menu">
+      <a nz-dropdown [nzDropdownMenu]="menu" i18n>
+        Products
+        <i nz-icon nzType="down"></i>
+      </a>
+
+      <nz-dropdown-menu #menu="nzDropdownMenu">
+        <ul nz-menu nzSelectable>
+          <li nz-menu-item i18n>Portraits</li>
+          <li nz-menu-item i18n>Wedding</li>
+          <li nz-menu-item i18n>Baby Shoot</li>
+        </ul>
+      </nz-dropdown-menu>
+
+      <a href="pricing" [routerLink]="['/pricing']" i18n>
+        Pricing
+      </a>
+    </div>
+
+    <div class="spacer">
+      <nz-select [(ngModel)]="selectedValue" (ngModelChange)="onLanguageChange()" nzAllowClear nzPlaceHolder="Choose">
+        <nz-option nzValue="en" nzLabel="English"></nz-option>
+        <nz-option nzValue="ja" nzLabel="日本語"></nz-option>
+        <nz-option nzValue="fr" nzLabel="Français"></nz-option>
+      </nz-select>
+    </div>
+  </div>
+  <div class="content" role="main">
+    <router-outlet></router-outlet>
+  </div>
+</ng-container>

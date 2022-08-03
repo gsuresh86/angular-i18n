@@ -1,0 +1,33 @@
+
+<div class="highlight-card" style="margin: 20px">
+  <h2 style="text-align: center" i18n>All-inclusive, affordable pricing plans</h2>
+  <h4 i18n>Start with a 15-day free trial. No credit card is required. Subscribe anytime with a 30-day money-back guarantee.</h4>
+</div>
+
+<div class="card-list">
+
+  <nz-card nzHoverable style="width:240px" [nzCover]="coverTemplate">
+    <nz-card-meta i18n [nzTitle]="'Portraits'" nzDescription="₹19,999"></nz-card-meta>
+  </nz-card>
+  <ng-template #coverTemplate>
+    <img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />
+  </ng-template>
+
+  <nz-card nzHoverable style="width:240px" [nzCover]="coverTemplate1">
+    <nz-card-meta i18n [nzTitle]="'Wedding'" nzDescription="₹49,999"></nz-card-meta>
+  </nz-card>
+  <ng-template #coverTemplate1>
+    <img alt="example" src="https://picsum.photos/seed/picsum2/200/250" />
+  </ng-template>
+
+
+  <nz-card nzHoverable style="width:240px" [nzCover]="coverTemplate2">
+    <nz-card-meta i18n [nzTitle]="'Baby Shoot'" nzDescription="₹30,999"></nz-card-meta>
+  </nz-card>
+  <ng-template #coverTemplate2>
+    <img alt="example" src="https://picsum.photos/seed/picsum3/200/250" />
+  </ng-template>
+
+
+
+</div>
