@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ba003028d7750c2fb385a7b98abb215ddcf8df15" datatype="html">
+        <source>
+        Products
+        <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfb5d75624b94949bfda00792ddef0490b1d42c5" datatype="html">
+        <source>Portraits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1ec5eb513bcbd526709b8b579ae70a32ed92269" datatype="html">
+        <source>Wedding</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="456abe8de1ded17dd1526631986263560a1c0f95" datatype="html">
+        <source>Baby Shoot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4af455e8558a00c707d2dd494e3858a2d7f5943" datatype="html">
+        <source>
+        Pricing
+      </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65cc4ab3b4c438e07c89be2b677d08369fb62da2" datatype="html">
+        <source>Welcome</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fcae99232bddfc05854b53fa61d5f15101f1b228" datatype="html">
+        <source>Striving to capture the present moment for the future memories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62daebee0ca5faa3f6dcec6b1c40eb5a2a4d7d2e" datatype="html">
+        <source>All-inclusive, affordable pricing plans</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pricing/pricing.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b93ed44927514aff053416cae92ad9fdb8b4f6b7" datatype="html">
+        <source>Start with a 15-day free trial. No credit card is required. Subscribe anytime with a 30-day money-back guarantee.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pricing/pricing.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

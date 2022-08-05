@@ -1,13 +1,15 @@
 {
-  "name": "angular-transloco",
+  "name": "angular-i18n",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:ja": "ng serve --configuration=ja",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "i18n:extract": "ng xi18n --output-path src/locale"
   },
   "private": true,
   "dependencies": {
@@ -16,11 +18,10 @@
     "@angular/compiler": "~8.2.14",
     "@angular/core": "~8.2.14",
     "@angular/forms": "~8.2.14",
+    "@angular/localize": "^9.1.13",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "@ngneat/transloco": "^2.23.5",
-    "@ngneat/transloco-locale": "^1.4.0",
     "ng-zorro-antd": "^8.5.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",

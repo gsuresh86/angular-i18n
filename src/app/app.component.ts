@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-transloco';
+  title = 'angular-i18n';
   // @ts-ignore
   selectedValue = window.urlParams.language || 'en';
 

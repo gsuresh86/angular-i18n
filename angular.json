@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-transloco": {
+    "angular-i18n": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-transloco",
+            "outputPath": "dist/angular-i18n/en/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,24 +67,35 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "ja": {
+              "aot": true,
+              "i18nLocale": "ja",
+              "outputPath": "dist/angular-i18n/ja/",
+              "i18nFile": "src/locale/messages.ja.xlf",
+              "i18nFormat": "xlf",
+              "i18nMissingTranslation": "error"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-transloco:build"
+            "browserTarget": "angular-i18n:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-transloco:build:production"
+              "browserTarget": "angular-i18n:build:production"
+            },
+            "ja": {
+              "browserTarget": "angular-i18n:build:ja"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-transloco:build"
+            "browserTarget": "angular-i18n:build"
           }
         },
         "test": {
@@ -122,16 +133,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-transloco:serve"
+            "devServerTarget": "angular-i18n:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-transloco:serve:production"
+              "devServerTarget": "angular-i18n:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-transloco"
+  "defaultProject": "angular-i18n"
 }

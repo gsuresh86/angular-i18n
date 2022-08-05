@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-transloco'`, () => {
+  it(`should have as title 'angular-i18n'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('angular-transloco');
+    expect(app.title).toEqual('angular-i18n');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angular-transloco app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-i18n app is running!');
   });
 });
